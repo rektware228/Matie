@@ -11,7 +11,7 @@
             <Image Source="{Binding Icon}" Name="IconImg" Width="130" Height="130" HorizontalAlignment="Left" Margin="10"/>
             <TextBlock VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10" Text="{Binding Name}"></TextBlock>
             <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="10" Text="{Binding Cost}"></TextBlock>
-            
+            <Button Content="Редактировать" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="100" Height="20" Click="Edit_Click" Margin="5"/>
 
         </Grid>
     </Border>

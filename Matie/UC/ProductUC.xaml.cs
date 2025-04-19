@@ -37,6 +37,10 @@ namespace Matie.UC
             }
         }
 
+        private void Edit_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.GetNavigationService(this)?.Navigate(new AddEditProductPage(product));
+        }
 
     }
 }

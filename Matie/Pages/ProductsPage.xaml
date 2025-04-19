@@ -26,6 +26,8 @@
                 <Button Content="Свернуть" Width="65" Height="30" Click="Minimize_Click"/>
                 <Button Content="Закрыть" Width="65" Height="30" Click="Close_Click" Margin="5,0,0,0"/>
             </StackPanel>
+            <Button Content="Сортировка А-Я" Click="Sort_Click" Margin="5"/>
+
             <Button Name="New" Click="New_Click">Новый товар</Button>
            
             <TextBlock>Поиск</TextBlock>
