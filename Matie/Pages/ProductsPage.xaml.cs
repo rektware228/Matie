@@ -32,6 +32,8 @@ namespace Matie.Pages
             if (App.currentUser.Role.id != 1)
             {
                 New.Visibility = Visibility.Collapsed;
+                New.Visibility = Visibility.Collapsed;
+
             }
             Refresh();
         }

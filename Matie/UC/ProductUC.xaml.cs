@@ -26,6 +26,11 @@ namespace Matie.UC
         public ProductUC(Product _product)
         {
             InitializeComponent();
+            if (App.currentUser.Role.id != 1)
+            {
+                EditBTN.Visibility = Visibility.Collapsed;
+                
+            }
             product = _product;
             DataContext = product;
         }

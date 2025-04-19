@@ -31,7 +31,8 @@
             <Button Name="New" Click="New_Click">Новый товар</Button>
            
             <TextBlock>Поиск</TextBlock>
-            <TextBox TextChanged="SearchTB_TextChanged" Name="SearchTB" Width="150"></TextBox>
+            <TextBox TextChanged="SearchTB_TextChanged" 
+                     Margin="0 0 0 30" Name="SearchTB" Width="150"></TextBox>
             <Grid>
                 <Button HorizontalAlignment="Left" Name="BackBtn" Click="BackBtn_Click">Назад</Button>
                 <TextBlock HorizontalAlignment="Center" Name="CountOnPageTb" Margin="5,0" />
