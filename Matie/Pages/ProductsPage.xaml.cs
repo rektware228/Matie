@@ -125,7 +125,9 @@ namespace Matie.Pages
                 currentPage--;
                 Refresh();
             }
+
         }
+      
 
         private void ForwardBtn_Click(object sender, RoutedEventArgs e)
         {
