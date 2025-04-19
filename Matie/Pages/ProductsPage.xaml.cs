@@ -75,7 +75,7 @@ namespace Matie.Pages
                 ProductsWP.Children.Add(new UC.ProductUC(product));
             }
 
-            CountOnPageTb.Text = $"Страница {currentPage} из {totalPages}";
+            CountOnPageTb.Text = $"{currentPage} из {totalPages}";
         }
 
 

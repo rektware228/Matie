@@ -6,6 +6,11 @@
         xmlns:local="clr-namespace:Matie"
         mc:Ignorable="d"
         Icon="/Components/Logo.ico"
+        WindowStyle="None"
+ResizeMode="NoResize"
+AllowsTransparency="True"
+Background="White"
+        WindowStartupLocation="CenterScreen"
         Title="Matie" MinHeight="750" MinWidth="750" MaxHeight="750" MaxWidth="750">
     <Grid>
         <Frame Name="MainFrame"

@@ -26,13 +26,13 @@
                 <Button Content="Свернуть" Width="65" Height="30" Click="Minimize_Click"/>
                 <Button Content="Закрыть" Width="65" Height="30" Click="Close_Click" Margin="5,0,0,0"/>
             </StackPanel>
-            <Button Content="Сортировка А-Я" Click="Sort_Click" Margin="5"/>
+            <Button Content="Сортировка А-Я"  Click="Sort_Click" Margin="5"/>
 
             <Button Name="New" Click="New_Click">Новый товар</Button>
            
             <TextBlock>Поиск</TextBlock>
             <TextBox TextChanged="SearchTB_TextChanged" 
-                     Margin="0 0 0 30" Name="SearchTB" Width="150"></TextBox>
+                     Margin="0 0 0 10" Name="SearchTB" Width="150"></TextBox>
             <Grid>
                 <Button HorizontalAlignment="Left" Name="BackBtn" Click="BackBtn_Click">Назад</Button>
                 <TextBlock HorizontalAlignment="Center" Name="CountOnPageTb" Margin="5,0" />
